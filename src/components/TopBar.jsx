@@ -7,8 +7,17 @@ const TopBar = () => {
     <div>
         <div>
             <BsChatSquareDots />
-            
+            <h1>WEEKDAY</h1>
         </div>
+        <div>
+            <AiOutlineClockCircle />
+            <p>9AM - 5PM</p>
+        </div>
+        <div>
+            <AiFillPhone />
+            <p>1-888-817-1234</p>
+        </div>
+        <button>Get a Free Quote</button>
     </div>
   )
 }
